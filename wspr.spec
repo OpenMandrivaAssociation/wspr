@@ -1,5 +1,5 @@
-BuildRequires:	gcc-gfortran python-devel python-imaging python-numpy 
-BuildRequires:	libsamplerate-devel f2c portaudio-devel fftw3-devel
+BuildRequires:	gcc-gfortran pkgconfig(python) python-imaging python-numpy 
+BuildRequires:	pkgconfig(samplerate) f2c portaudio-devel fftw3-devel
 BuildRequires:	python-numpy-devel
 
 %define short_ver 3.00
@@ -90,3 +90,10 @@ sed -i -e '1i#!/usr/bin/python' %{buildroot}/%{_datadir}/wspr/wspr.py
 %files -n python-%{name}
 %dir %{py_sitedir}/WsprMod
 %{py_sitedir}/WsprMod/*
+
+
+%changelog
+* Thu May 10 2012 Alexander Khrukin <akhrukin@mandriva.org> 3.00.r2436-1
++ Revision: 798022
+- imported package wspr
+
