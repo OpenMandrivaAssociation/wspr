@@ -7,7 +7,7 @@ BuildRequires:	python-numpy-devel
 Name:		wspr
 Summary:	Weak Signal Propagation Reporter
 Version:	3.00.r2436
-Release:	1
+Release:	2
 Source0:	%{name}-%{version}.tar.bz2
 Source1:        wspr.png
 Group:		Communications
@@ -29,7 +29,7 @@ very low power (QRP/QRPp) transmissions.
 %package -n	python-%{name}
 Summary:	WSPR library Python binding
 Group:		Development/Python
-Requires:	hamlib = %{version}-%{release}
+Requires:	hamlib
 
 %description -n python-%{name}
 WSPR python bindings
