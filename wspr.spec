@@ -7,7 +7,7 @@ BuildRequires:	python-numpy-devel
 Name:		wspr
 Summary:	Weak Signal Propagation Reporter
 Version:	3.00.r2436
-Release:	2
+Release:	3
 Source0:	%{name}-%{version}.tar.bz2
 Source1:        wspr.png
 Group:		Communications
