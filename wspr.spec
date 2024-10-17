@@ -12,7 +12,7 @@ Source0:	%{name}-%{version}.tar.bz2
 Source1:        wspr.png
 Group:		Communications
 License:	GPL
-URL:		http://developer.berlios.de/projects/wsjt/
+URL:		https://developer.berlios.de/projects/wsjt/
 
 Requires:	python
 Requires:	python-imaging
